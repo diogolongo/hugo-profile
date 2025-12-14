@@ -105,7 +105,7 @@
         {{ template "_internal/disqus.html" . }}
       </div>
     </div>
-    { if or (.Site.Params.giscus.enable | default false) }}
+    {{ if or (.Site.Params.giscus.enable | default false) }}
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-9 p-4">
         <script src="https://giscus.app/client.js"
