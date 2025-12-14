@@ -430,18 +430,18 @@ params:
 
   giscus:
     enable: true
-    data.repo: "myblog.com"
-    data.repo.id: "00000000000000000="
-    data.category: "Announcements"
-    data.category.id: "XXXXXXXXXXXX"
-    data.mapping: "pathname"
-    data.strict: "0"
-    data.reactions.enabled: "1"
-    data.emit.metadata: "0"
-    data.input.position: "top"
-    data.theme: "preferred_color_scheme"
-    data.lang: "en"
-    data.loading: "lazy"
+    datarepo: "myblog.com"
+    datarepoid: "00000000000000000="
+    datacategory: "Announcements"
+    datacategoryid: "XXXXXXXXXXXX"
+    datamapping: "pathname"
+    datastrict: "0"
+    datareactionsenabled: "1"
+    dataemitmetadata: "0"
+    datainputposition: "top"
+    datatheme: "preferred_color_scheme"
+    datalang: "en"
+    dataloading: "lazy"
     crossorigin: "anonymous"
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
